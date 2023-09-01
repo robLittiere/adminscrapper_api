@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"strings"
 )
 
 // A method to get the content of a file
@@ -34,4 +35,16 @@ func ParseJsonFile(filepath string) ([]map[string]interface{}, error) {
 	}
 
 	return j, nil
+}
+
+func ParseTxtFile(filepath string) ([]string, error) {
+	// Get file data in string
+	dat, err := GetFileContent(filepath)
+	if err != nil {
+		return nil, err
+	}
+
+	lines := strings.Split(string(dat), "\n")
+
+	return lines, nil
 }
