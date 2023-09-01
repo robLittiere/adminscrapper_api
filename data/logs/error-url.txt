@@ -1,0 +1,2 @@
+Nextcloud-http://192.168.100.200/nextcloud/index.php/login-24/10/2022 10:31:45
+Webmin_BERO3-http://192.168.100.3:10000/-21/10/2022 08:13:57

@@ -1,0 +1,4 @@
+Nextcloud-http://192.168.100.200/nextcloud/index.php/login
+Webmin_VM Nextcloud-http://192.168.100.200:10000/
+Webmin_BERO5-http://192.168.100.10:10000/
+Webmin_BERO3-http://192.168.100.3:10000/

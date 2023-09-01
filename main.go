@@ -1,6 +1,7 @@
 package main
 
 import (
+	"adminscrapper/api/controllers"
 	"net/http"
 
 	"github.com/gin-contrib/cors"
@@ -33,7 +34,7 @@ func InitRouter() *gin.Engine {
 	v := api.Group("/v1")
 
 	// Add routes or even group routes to this v group
-	// exemple : http://localhost:8080/api/v1/users
+	// exemple : http://localhost:8080/api/v1/pings
 	pings := v.Group("/pings")
 	{
 		pings.GET("/", func(c *gin.Context) {
@@ -42,6 +43,9 @@ func InitRouter() *gin.Engine {
 			})
 		})
 	}
+
+	// Group routes
+	controllers.AdminRoutes(v)
 
 	return r
 }

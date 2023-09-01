@@ -1,0 +1,22 @@
+[
+  {
+    "hostname": "Inconnue",
+    "ip_address": "192.168.114.131",
+    "mac_address": "c8:89:f3:bb:23:61",
+    "datetime": "24/10/2022 10:31:40",
+    "date": "24/10/2022",
+    "time": "10:31:40",
+    "connected": "true",
+    "path": "data/c8-89-f3-bb-23-61"
+  },
+  {
+    "hostname": "Inconnue",
+    "ip_address": "192.168.114.246",
+    "mac_address": "9e:a:12:e:3a:42",
+    "datetime": "24/10/2022 10:31:40",
+    "date": "24/10/2022",
+    "time": "10:31:40",
+    "connected": "true",
+    "path": "data/9e-a-12-e-3a-42"
+  }
+]
